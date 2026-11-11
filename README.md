@@ -128,3 +128,4 @@ Task2_NL_AutomatedTesting_Playwright/
 ├── README.md                      # Setup & documentation
 └── APPROACH_AND_LIMITATIONS.md    # Design rationale & limitations analysis
 ```
+
