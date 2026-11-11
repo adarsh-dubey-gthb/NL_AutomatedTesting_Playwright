@@ -1,0 +1,15 @@
+[
+  {
+    "name": "PHP Travels Customer Login",
+    "goal": "Log in as a customer on phptravels.net and verify the dashboard is shown"
+  },
+  {
+    "name": "Herokuapp Authentication Test",
+    "goal": "Visit https://the-internet.herokuapp.com/login, log in with username tomsmith and password SuperSecretPassword!, and verify Secure Area is displayed"
+  },
+  {
+    "name": "CloudQA Practice Form Verification",
+    "goal": "Visit https://app.cloudqa.io/home/AutomationPracticeForm and verify the practice form header is visible"
+  }
+]
+

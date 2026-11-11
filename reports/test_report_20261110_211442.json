@@ -1,0 +1,93 @@
+{
+  "goal": "Log in as a customer on phptravels.net and verify the dashboard is shown",
+  "status": "PASS",
+  "summary": "Verified: Session authenticated and navigated to 'https://phptravels.net/dashboard'.",
+  "total_steps": 5,
+  "duration_seconds": 18.46,
+  "steps": [
+    {
+      "step_number": 1,
+      "action": {
+        "action": "navigate",
+        "element_id": null,
+        "selector": null,
+        "value": "https://phptravels.net/login",
+        "assertion_condition": null,
+        "test_passed": null,
+        "reasoning": "Navigating to test site URL: https://phptravels.net/login"
+      },
+      "status": "SUCCESS",
+      "details": "Successfully navigated to https://phptravels.net/login",
+      "screenshot_path": "C:\\Users\\Admin\\Desktop\\internship1\\Task2_NL_AutomatedTesting_Playwright\\reports\\screenshots\\step_1_20261110_211442.png",
+      "page_url": "https://phptravels.net/login"
+    },
+    {
+      "step_number": 2,
+      "action": {
+        "action": "click",
+        "element_id": "e53",
+        "selector": null,
+        "value": null,
+        "assertion_condition": null,
+        "test_passed": null,
+        "reasoning": "Dismissing modal notice button: 'I Understand & Continue'"
+      },
+      "status": "SUCCESS",
+      "details": "Clicked element [e53]",
+      "screenshot_path": "C:\\Users\\Admin\\Desktop\\internship1\\Task2_NL_AutomatedTesting_Playwright\\reports\\screenshots\\step_2_20261110_211442.png",
+      "page_url": "https://phptravels.net/login"
+    },
+    {
+      "step_number": 3,
+      "action": {
+        "action": "fill",
+        "element_id": "e10",
+        "selector": null,
+        "value": "user@phptravels.com",
+        "assertion_condition": null,
+        "test_passed": null,
+        "reasoning": "Entering username/email: user@phptravels.com"
+      },
+      "status": "SUCCESS",
+      "details": "Filled [e10] with 'user@phptravels.com'",
+      "screenshot_path": "C:\\Users\\Admin\\Desktop\\internship1\\Task2_NL_AutomatedTesting_Playwright\\reports\\screenshots\\step_3_20261110_211442.png",
+      "page_url": "https://phptravels.net/login"
+    },
+    {
+      "step_number": 4,
+      "action": {
+        "action": "fill",
+        "element_id": "e11",
+        "selector": null,
+        "value": "demouser",
+        "assertion_condition": null,
+        "test_passed": null,
+        "reasoning": "Entering credentials password"
+      },
+      "status": "SUCCESS",
+      "details": "Filled [e11] with '***'",
+      "screenshot_path": "C:\\Users\\Admin\\Desktop\\internship1\\Task2_NL_AutomatedTesting_Playwright\\reports\\screenshots\\step_4_20261110_211442.png",
+      "page_url": "https://phptravels.net/login"
+    },
+    {
+      "step_number": 5,
+      "action": {
+        "action": "click",
+        "element_id": "e14",
+        "selector": null,
+        "value": null,
+        "assertion_condition": null,
+        "test_passed": null,
+        "reasoning": "Clicking login submit button 'login Sign In to your account'"
+      },
+      "status": "SUCCESS",
+      "details": "Clicked element [e14]",
+      "screenshot_path": "C:\\Users\\Admin\\Desktop\\internship1\\Task2_NL_AutomatedTesting_Playwright\\reports\\screenshots\\step_5_20261110_211442.png",
+      "page_url": "https://phptravels.net/dashboard"
+    }
+  ],
+  "error_message": null,
+  "final_url": "https://phptravels.net/dashboard",
+  "final_screenshot": "C:\\Users\\Admin\\Desktop\\internship1\\Task2_NL_AutomatedTesting_Playwright\\reports\\screenshots\\final_20261110_211442.png",
+  "report_path": "C:\\Users\\Admin\\Desktop\\internship1\\Task2_NL_AutomatedTesting_Playwright\\reports\\test_report_20261110_211442.html"
+}

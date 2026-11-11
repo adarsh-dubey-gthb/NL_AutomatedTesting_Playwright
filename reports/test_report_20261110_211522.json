@@ -1,0 +1,77 @@
+{
+  "goal": "Visit https://the-internet.herokuapp.com/login, log in with username tomsmith and password SuperSecretPassword!, and verify Secure Area is displayed",
+  "status": "PASS",
+  "summary": "Verified: Session authenticated and navigated to 'https://the-internet.herokuapp.com/secure'.",
+  "total_steps": 4,
+  "duration_seconds": 13.21,
+  "steps": [
+    {
+      "step_number": 1,
+      "action": {
+        "action": "navigate",
+        "element_id": null,
+        "selector": null,
+        "value": "https://the-internet.herokuapp.com/login",
+        "assertion_condition": null,
+        "test_passed": null,
+        "reasoning": "Navigating to test site URL: https://the-internet.herokuapp.com/login"
+      },
+      "status": "SUCCESS",
+      "details": "Successfully navigated to https://the-internet.herokuapp.com/login",
+      "screenshot_path": "C:\\Users\\Admin\\Desktop\\internship1\\Task2_NL_AutomatedTesting_Playwright\\reports\\screenshots\\step_1_20261110_211522.png",
+      "page_url": "https://the-internet.herokuapp.com/login"
+    },
+    {
+      "step_number": 2,
+      "action": {
+        "action": "fill",
+        "element_id": "e3",
+        "selector": null,
+        "value": "tomsmith",
+        "assertion_condition": null,
+        "test_passed": null,
+        "reasoning": "Entering username/email: tomsmith"
+      },
+      "status": "SUCCESS",
+      "details": "Filled [e3] with 'tomsmith'",
+      "screenshot_path": "C:\\Users\\Admin\\Desktop\\internship1\\Task2_NL_AutomatedTesting_Playwright\\reports\\screenshots\\step_2_20261110_211522.png",
+      "page_url": "https://the-internet.herokuapp.com/login"
+    },
+    {
+      "step_number": 3,
+      "action": {
+        "action": "fill",
+        "element_id": "e4",
+        "selector": null,
+        "value": "SuperSecretPassword!",
+        "assertion_condition": null,
+        "test_passed": null,
+        "reasoning": "Entering credentials password"
+      },
+      "status": "SUCCESS",
+      "details": "Filled [e4] with '***'",
+      "screenshot_path": "C:\\Users\\Admin\\Desktop\\internship1\\Task2_NL_AutomatedTesting_Playwright\\reports\\screenshots\\step_3_20261110_211522.png",
+      "page_url": "https://the-internet.herokuapp.com/login"
+    },
+    {
+      "step_number": 4,
+      "action": {
+        "action": "click",
+        "element_id": "e5",
+        "selector": null,
+        "value": null,
+        "assertion_condition": null,
+        "test_passed": null,
+        "reasoning": "Clicking login submit button 'Login'"
+      },
+      "status": "SUCCESS",
+      "details": "Clicked element [e5]",
+      "screenshot_path": "C:\\Users\\Admin\\Desktop\\internship1\\Task2_NL_AutomatedTesting_Playwright\\reports\\screenshots\\step_4_20261110_211522.png",
+      "page_url": "https://the-internet.herokuapp.com/secure"
+    }
+  ],
+  "error_message": null,
+  "final_url": "https://the-internet.herokuapp.com/secure",
+  "final_screenshot": "C:\\Users\\Admin\\Desktop\\internship1\\Task2_NL_AutomatedTesting_Playwright\\reports\\screenshots\\final_20261110_211522.png",
+  "report_path": "C:\\Users\\Admin\\Desktop\\internship1\\Task2_NL_AutomatedTesting_Playwright\\reports\\test_report_20261110_211522.html"
+}
